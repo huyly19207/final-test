@@ -1,0 +1,70 @@
+.container {
+  /* background-color: red; */
+  width: 400px;
+  height: 500px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-grow: 1;
+  border-radius: none;
+  border: 1px solid black;
+  background-color: #f4f4f4;
+  /* background-color: blue; */
+}
+
+.row :hover {
+  background-color: #8bd6f7;
+}
+
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.btn {
+  flex-grow: 1;
+  font-size: 5em;
+  font-weight: bold;
+  width: 90px;
+  height: 130px;
+}
+
+.title {
+  font-size: 1.8em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.controls {
+  text-align: center;
+  padding: 5%;
+  margin: 20px;
+}
+
+.reset {
+  background-color: #27fab5;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.agains {
+  background-color: #f7e191;
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.cell.X {
+  color: red;
+}
+
+.cell.O {
+  color: black;
+}
